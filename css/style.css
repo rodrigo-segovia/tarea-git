@@ -23,6 +23,84 @@ background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, F
  font-family: "Roboto", sans-serif;
  **/
  
+/**PAGINA PRINCIPAL**/
+.body-inicio {
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #e74c3c, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ 
+     margin: 0;
+     position: relative;
+     padding-bottom: 3em;
+     min-height: 200vh;
+ 
+ }
+
+
+.header-inicio {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 3em;
+   
+
+}
+
+.navbar {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   list-style: none;
+   margin-bottom: 15px;
+   transition: all .3s ease;
+   list-style: none;
+
+}
+
+.navbar li a:hover {
+   color: #FFFFFF;
+   padding-left: 6px;
+   list-style: none;
+   text-decoration: dashed;
+   margin-bottom: 15px;
+   transition: all .3s ease;
+   list-style: none;
+
+
+}
+
+.navbar li a {
+   list-style: none;
+   text-decoration: black;
+   font-family: "Roboto", sans-serif;
+   color: rgba(218, 217, 238, 0.596);
+   font-size: 3rem;
+   display: block;
+
+
+}
+
+.tit-inicio {
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px 20px;
+    color: #340c4e;
+}
+
+.tit-inicio li a{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.h2-inicio{
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px 20px;
+}
+
+
  /**PAGINA INNOVACION**/
  * {
      margin: 0%;

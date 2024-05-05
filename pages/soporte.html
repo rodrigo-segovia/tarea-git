@@ -4,117 +4,240 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
-<body class="body-sop">
-    <header class="header-sop">
-        <section class="logo">
-            <a href="../index.html">
-                <h1 class="titulo"> Rodteck
-                </h1>
-            </a>
-        </section>
-        <nav>
-            <ul class="navbar">
-                <li><a href="./tienda.html">Tienda</a></li>
-                <li><a href="./Innovacion.html">Innovacion</a></li>
-                <li><a href="./sucursales.html">Sucursales</a></li>
-                <li><a href="./soporte.html">Soporte</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section>
-            <article class="titulosoporte">
-                <p>Preguntas frecuentes</p>
-            </article>
-        </section>
-        <section class="textosoporte">
-            <ul>
-                <li>
-                ¿Qué tipo de guitarra eléctrica es mejor para principiantes?
-
-            </li>
-            
-                <li>
-                    ¿Qué es más fácil tocar guitarra o guitarra eléctrica?
-                </li>
-                <li>
-                    ¿Qué tan difícil es tocar guitarra eléctrica?
-                </li>
-                <li>
-                    ¿Cuáles son los tipos de piano?
-                </li>
-                <li>
-                    ¿Qué diferencia hay entre un piano acústico y un piano eléctrico?
-                </li>
-                <li>
-                    ¿Cuál es la altura correcta para tocar el piano?
-                </li>
-                <li>
-                    ¿Hay algún incentivo o descuentos?
-                </li>
-                <li>
-                    ¿Cuantos años dura?
-                </li>
-            </ul>
-        </section>
-
-    </main>
-
-
-
-
-
-
-
-
-
-
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-row">
-                <div class="footer-links">
-                    <h4>Compañia</h4>
-                    <ul>
-                        <li><a href="#">Nosotros</a></li>
-                        <li><a href="#">Nuestros servicios</a></li>
-                        <li><a href="#">Politica de privacidad</a></li>
-                        <li><a href="#">Afiliate</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Ayuda</h4>
-                    <ul>
-                        <li><a href="#">Preguntas</a></li>
-                        <li><a href="#">Compras</a></li>
-                        <li><a href="#">Envios</a></li>
-                        <li><a href="#">Estatus de orden</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Tienda</h4>
-                    <ul>
-                        <li><a href="#">Modelos</a></li>
-                        <li><a href="#">Mercancia</a></li>
-                        <li><a href="#">Ropa</a></li>
-                        <li><a href="#">Merchandising</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Siguenos</h4>
-                    <div class="social-link">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-            </div>
+<body class="body-sop m-auto">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+            <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          </a>
         </div>
-    </footer>
+  
+        <nav class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="../index.html" class="nav-link px-2 link-secondary">Inicio</a></li>
+          <li><a href="#" class="nav-link px-2">Tienda</a></li>
+          <li><a href="./innovacion.html" class="nav-link px-2">Innovacion</a></li>
+          <li><a href="./sucursales.html" class="nav-link px-2">Sucursales</a></li>
+          <li><a href="./soporte.html" class="nav-link px-2">Soporte</a></li>
+        </nav>
+  
+        <div class="col-md-3 text-end">
+          <button type="button" class="btn btn-outline-primary me-2">Iniciar sesión</button>
+          <button type="button" class="btn btn-primary">Registrarse</button>
+        </div>
+      </header>
+    <main>
+    
+        <div class="row g-5">
+          <div class="col-md-5 col-lg-4 order-md-last">
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+              <span class="text-primary">Your cart</span>
+              <span class="badge bg-primary rounded-pill">3</span>
+            </h4>
+            <ul class="list-group mb-3">
+              <li class="list-group-item d-flex justify-content-between lh-sm">
+                <div>
+                  <h6 class="my-0">Producto</h6>
+                  <small class="text-body-secondary">Piano</small>
+                </div>
+                <span class="text-body-secondary">$120.000</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between lh-sm">
+                <div>
+                  <h6 class="my-0">Prodructo</h6>
+                  <small class="text-body-secondary">Guitarra electrica</small>
+                </div>
+                <span class="text-body-secondary">$200.000</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between lh-sm">
+                <div>
+                  <h6 class="my-0">Accesorios</h6>
+                  <small class="text-body-secondary">Pua de guitarra</small>
+                </div>
+                <span class="text-body-secondary">$5</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
+                <div class="text-success">
+                  <h6 class="my-0">Codigo promocional</h6>
+                  <small>RODTECK2024</small>
+                </div>
+                <span class="text-success">−$30.000</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between">
+                <span>Total (USD)</span>
+                <strong>$290.000</strong>
+              </li>
+            </ul>
+    
+            <form class="card p-2">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Codigo promocional">
+                <button type="submit" class="btn btn-secondary">Aplicar</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-7 col-lg-8">
+            <h4 class="mb-3">Dirección</h4>
+            <form class="needs-validation" novalidate="">
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="firstName" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Valid first name is required.
+                  </div>
+                </div>
+    
+                <div class="col-sm-6">
+                  <label for="lastName" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                  <div class="invalid-feedback">
+                    Valid last name is required.
+                  </div>
+                </div>
+    
+                <div class="col-12">
+                  <label for="username" class="form-label">Usuario</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                  <div class="invalid-feedback">
+                      Your username is required.
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-12">
+                  <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+                  <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                  <div class="invalid-feedback">
+                    Please enter a valid email address for shipping updates.
+                  </div>
+                </div>
+    
+                <div class="col-12">
+                  <label for="address" class="form-label">Calle</label>
+                  <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                  <div class="invalid-feedback">
+                    Please enter your shipping address.
+                  </div>
+                </div>
+    
+                <div class="col-12">
+                  <label for="address2" class="form-label">Calle 2 <span class="text-body-secondary">(Optional)</span></label>
+                  <input type="text" class="form-control" id="address2" placeholder="Casa o departamento">
+                </div>
+    
+                <div class="col-md-5">
+                  <label for="country" class="form-label">Pais</label>
+                  <select class="form-select" id="country" required="">
+                    <option value="">Elegir...</option>
+                    <option>Argentina</option>
+                    <option>Brasil</option>
+                    <option>Uruguay</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid country.
+                  </div>
+                </div>
+    
+                <div class="col-md-4">
+                  <label for="state" class="form-label">Provincia</label>
+                  <select class="form-select" id="state" required="">
+                    <option value="">Elegir...</option>
+                    <option>Buenos aires</option>
+                    <option>Neuquen</option>
+                    <option>Tierra del fuego</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please provide a valid state.
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <label for="zip" class="form-label">Código postal</label>
+                  <input type="text" class="form-control" id="zip" placeholder="" required="">
+                  <div class="invalid-feedback">
+                    Zip code required.
+                  </div>
+                </div>
+              </div>
+    
+              <hr class="my-4">
+    
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="same-address">
+                <label class="form-check-label" for="same-address">Recibir informacion a mi mail</label>
+              </div>
+    
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="save-info">
+                <label class="form-check-label" for="save-info">Guardar informacion para la proxima vez</label>
+              </div>
+    
+              <hr class="my-4">
+    
+              <h4 class="mb-3">Metodos de pago</h4>
+    
+              <div class="my-3">
+                <div class="form-check">
+                  <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+                  <label class="form-check-label" for="credit">Tarjeta de credito</label>
+                </div>
+                <div class="form-check">
+                  <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+                  <label class="form-check-label" for="debit">Tarjeta de debito</label>
+                </div>
+                <div class="form-check">
+                  <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+                  <label class="form-check-label" for="paypal">PayPal</label>
+                </div>
+              </div>
+    
+              <div class="row gy-3">
+                <div class="col-md-6">
+                  <label for="cc-name" class="form-label">Nombre en la tarjeta</label>
+                  <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                  <small class="text-body-secondary">Todos los nombres de la tarjeta</small>
+                  <div class="invalid-feedback">
+                    Name on card is required
+                  </div>
+                </div>
+    
+                <div class="col-md-6">
+                  <label for="cc-number" class="form-label">Numeros de la tarjeta</label>
+                  <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                  <div class="invalid-feedback">
+                    Credit card number is required
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <label for="cc-expiration" class="form-label">Expiracion</label>
+                  <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                  <div class="invalid-feedback">
+                    Expiration date required
+                  </div>
+                </div>
+    
+                <div class="col-md-3">
+                  <label for="cc-cvv" class="form-label">CVV</label>
+                  <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                  <div class="invalid-feedback">
+                    Security code required
+                  </div>
+                </div>
+              </div>
+    
+              <hr class="my-4">
+    
+              <button class="w-100 btn btn-primary btn-lg" type="submit">Continuar con la compra</button>
+            </form>
+          </div>
+        </div>
+      </main>
 
 
 
@@ -123,6 +246,29 @@
 
 
 
+
+
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Compañia</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sumate</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Siguenos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Soporte</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company Rodteck, Inc</p>
+      </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
 
 </body>
 </html>
