@@ -500,7 +500,7 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
     background-color: aqua;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
 
     .footer-row {
         text-align: center;
@@ -508,8 +508,52 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
     }
 
     .footer-links {
-        width: 100%;
-        margin-bottom: 30px;
+        width: 50%;
+        margin-bottom: 10px;
 
     }
+
+    .temas-inno{
+        display: flex;
+        flex-wrap: wrap;
+        height: 530px;
+        width: 80%;
+    }
+}
+@media (max-width: 768px){
+
+.navbar li a{
+    font-size: 30px;
+}
+
+    .footer-links{
+        width: 30%;
+    }
+
+
+}
+
+
+@media (max-width: 425px){
+    .body-inno{
+        min-height: 130vh;
+    }
+    
+    .header-inno{
+        font-size: 2em;
+        }
+    .tit-inno{
+        text-align: center;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .Innovacion{
+        width: 80%;
+    }
+
+
 }
