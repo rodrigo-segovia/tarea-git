@@ -534,9 +534,9 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
 }
 
 
-@media (max-width: 425px){
+@media (max-width: 430px){
     .body-inno{
-        min-height: 130vh;
+        min-height: 200vh;
     }
     
     .header-inno{
