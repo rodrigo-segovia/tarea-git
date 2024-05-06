@@ -574,15 +574,32 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
     }
 
 @media (max-width: 320px){
+   
+    .footer-links{
+        width: 30%;
+    }
+
+    .container{
+        max-width: 320px;
+        margin-top: auto;
+    }
+    .footer{
+        position: relative;
+    }
     .body-inno{
-        min-height: 150vh;
+        min-height: 180vh;
     }
     
     .header-inno{
-        font-size: 2em;
+        font-size: 1em;
         }
     .tit-inno{
         text-align: center;
+        font-size: 2rem;
+    }
+    .tit-inno2{
+        text-align: center;
+        font-size: 2rem;
     }
     .navbar-inno{
         display: flex;
