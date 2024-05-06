@@ -101,6 +101,21 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /**PAGINA INNOVACION**/
  * {
      margin: 0%;
@@ -259,7 +274,7 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
      margin: 0;
      position: relative;
      padding-bottom: 3em;
-     min-height: 200vh;
+     min-height: 100vh;
 }
 .header-suc {
     text-align: center;
@@ -304,11 +319,13 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
 
 }
 
-
-
-.mapa-1 {
-    background-color: rgba(163, 152, 175, 0.185);
+.mapas{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
+
 
 .tmapa1 {
     color: #ffffff;
@@ -317,12 +334,14 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
     font-size: 2rem;
     width: 100%;
     min-height: 50px;
-    margin-left: 100px;
+    margin-left: 95px;
 }
 
 .mapa1 {
     text-align: center;
 }
+
+
 
 
 /**PAGINA SOPORTE**/
