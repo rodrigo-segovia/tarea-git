@@ -150,7 +150,7 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
  
  }
  
- .navbar {
+ .navbar-inno {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -161,7 +161,7 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
 
 }
 
-.navbar li a:hover {
+.navbar-inno li a:hover {
     color: #FFFFFF;
     padding-left: 6px;
     list-style: none;
@@ -173,7 +173,7 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
 
 }
 
-.navbar li a {
+.navbar-inno li a {
     list-style: none;
     text-decoration: black;
     font-family: "Roboto", sans-serif;
@@ -538,10 +538,21 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
         height: 530px;
         width: 80%;
     }
+
+
+    /**PAGINA SUCURSALES**/
+    .body-suc{
+        min-height: 150vh;
+    }
+    .mapas{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
 }
 @media (max-width: 768px){
 
-.navbar li a{
+.navbar-inno li a{
     font-size: 30px;
 }
 
@@ -553,9 +564,18 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
 }
 
 
+/**PAGINA SUCURSALES**/
+
+    .navbar li a{
+        color: #c21500;
+    }
+    .tmapa1{
+        color: black;
+    }
+
 @media (max-width: 320px){
     .body-inno{
-        min-height: 130vh;
+        min-height: 150vh;
     }
     
     .header-inno{
@@ -564,15 +584,30 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
     .tit-inno{
         text-align: center;
     }
-    .navbar{
+    .navbar-inno{
         display: flex;
         flex-direction: column;
     
     }
 
     .Innovacion{
-        width: 80%;
+        width: 70%;
     }
 
 
+
+/**PAGINA SUCURSALES**/
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar li a{
+        font-size: 2rem;
+    }
+    .mapas{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
