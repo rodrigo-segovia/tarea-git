@@ -310,7 +310,7 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
 
 .navbar li a {
    list-style: none;
-   text-decoration: black;
+   text-decoration: rgb(243, 236, 236);
    font-family: "Roboto", sans-serif;
    color: rgba(218, 217, 238, 0.596);
    font-size: 3rem;
@@ -621,10 +621,22 @@ background: linear-gradient(to top, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Fir
     }
 
     .navbar li a{
-        font-size: 2rem;
+        font-size: 1.5rem;
+        color: white;
     }
     .mapas{
         display:grid;
         grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin-top: none;
     }
+    .mapas iframe{
+        width: 90%;
+    }
+    .tmapa1{
+        margin: auto;
+        font-size: 1rem;
+        text-align: left;
+    }
+
 }
